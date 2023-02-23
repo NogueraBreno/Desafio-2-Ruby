@@ -1,0 +1,31 @@
+Desafio 2
+
+### *Contexto*
+
+Sua tarefa é criar um portfólio online que apresente sua formação, certificações, 
+projetos e habilidades a potenciais empregadores ou clientes. O portfólio deve ser
+criado usando Ruby on Rails e deve incluir, pelo menos, três páginas: 
+uma página inicial, uma página sobre sua formação e certificações, 
+e uma página sobre seus projetos.
+
+### *Requisitos*
+
+- Crie uma nova aplicação Ruby on Rails.
+- Crie uma página inicial que apresente uma descrição sobre você e suas habilidades.
+- Crie uma página sobre sua formação e certificações que apresente informações sobre 
+sua formação acadêmica, cursos realizados, e certificações adquiridas.
+- Crie uma página sobre seus projetos que apresente informações sobre os projetos 
+que você já desenvolveu e trabalhou.
+- Adicione o Bootstrap ou outro framework CSS para tornar o site atraente e fácil 
+de usar. É possível criar o seu próprio estilo usando CSS ou SCSS.
+
+### *Critérios de Avaliação*
+
+A solução será avaliada com base nos seguintes critérios:
+
+- Correção da solução
+- Uso de boas práticas de programação
+- Usabilidade e aparência do site
+- Implementação de todas as funcionalidades requeridas
+
+Boa sorte!
