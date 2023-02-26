@@ -1,11 +1,11 @@
-  	<header id = "header-bar" class="hidden-objects " >
+  	<header id = "header-bar"  >
   		<div id="aba-topo">	
   				<p id="portfolio-topo"> PORTFÓLIO</p>
 		   <nav role="navigation" id="navbar-topo">
-			<button type="button" class="btn btn-outline-light btn-md" >INICIO</button>
-			<button type="button" class="btn btn-outline-light btn-md" >SOBRE</button>
-			<button type="button" class="btn btn-outline-light btn-md" >PROJETOS</button>
-			<button type="button" class="btn btn-outline-light btn-md" >CONTATO</button>
+			<%= link_to "INICIO", root_path, :class =>"btn btn-outline-light btn-md" %> 
+			<%= link_to "SOBRE", pages_about_path, :class =>"btn btn-outline-light btn-md" %> 
+			<%= link_to "PROJETOS", pages_contacts_path, :class =>"btn btn-outline-light btn-md" %> 
+			<%= link_to "CONTATO", pages_projects_path, :class =>"btn btn-outline-light btn-md" %> 
 			</nav>
         </div>
 		<script>  window.addEventListener('scroll',() => {
