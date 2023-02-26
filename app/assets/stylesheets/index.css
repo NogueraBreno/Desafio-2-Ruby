@@ -166,7 +166,6 @@ body {
 
 #bot-principal {
 
-	background-color: rgb(242, 242, 242, 0.5);
 	border-radius: 15px;
 	height: auto;
 	width: 100%;    
@@ -176,6 +175,10 @@ body {
 
 }
 
+.links-contact{
+    text-decoration: none;
+
+}
 .card-exp{
 
     max-width: 540px;
