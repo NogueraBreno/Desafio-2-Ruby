@@ -2,3 +2,83 @@
 @import "about.css";
 @import "projects.css";
 @import "contacts.css";
+
+
+
+
+
+* {
+	margin-bottom: 5px;
+    font-family: Impact;
+}
+
+:root {
+    --bs-body-bg : rgb(150, 150, 150) !important;
+}
+
+
+body {
+	margin: 0px 5px !important;
+	padding: 0px 5px !important;
+}
+
+
+
+#aba-topo {
+	background-color: rgba(0,0,0, 0.8);
+    height: fit-content;
+    object-position: 5px 10%;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    width : 100%;
+    padding-bottom: 0.5em;
+
+}
+#portfolio-h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: Impact;
+    color: rgba(255, 255, 255, 0);
+    margin: 0 !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f8f9fa;
+    margin-bottom: -0.4em !important;
+}
+
+#portfolio-h2{
+    font-size: 2em;
+    color:  rgba(255, 255, 255, 0);
+    margin: 0 !important;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f8f9fa;
+
+}
+#navbar-topo{
+    margin-top: 0.5em !important
+}
+
+.sticky-top {
+	background-color: rgb(150, 150, 150) ;
+    transition: 0.1s;
+    transition-duration: 0.3s;
+}
+
+
+.hidden-objects{
+    
+    animation: 2s linear fadein;
+   
+ }
+
+ 
+ #bt-social {
+
+    width: 50px;
+    height: 50px;
+    
+}
+
+.links-contact{
+   text-decoration: none;
+
+}
