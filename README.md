@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### [EN ] Here you can see the informations about the application.
+#### [BR ] Aqui você pode verificar informações a respeito da aplicação.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##
+* __Ruby version__ - _3.1.3_
+* __Rails version__ - _7.0.4.2_
+* __Postgresql version__ - _15.2_
