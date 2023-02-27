@@ -1,0 +1,52 @@
+<section class="content-div hidden-objects">
+<div class="contacts-div">
+    <div class="row">
+    <div class="col-sm-6">
+        <div class="card text-bg-light card-contact">
+        <div class="card-body">
+            <h5 class="card-title">WHATSAPP</h5>
+            <p class="card-text">Entre em contato por Whatsapp.</p>
+             <a class="links-contact" href="https://wa.me/5565996248667" target="_blank">
+             <input type="image" src="https://cdn-icons-png.flaticon.com/512/739/739247.png" id="bt-social" >	
+             </a>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card text-bg-light card-contact">
+        <div class="card-body">
+            <h5 class="card-title">LINKEDIN</h5>
+            <p class="card-text">Entre em contato comigo pelo LinkedIn.</p>
+            <a class="links-contact" href="https://www.linkedin.com/in/breno-da-silva-nogueira-383063176/" target="_blank">
+            <input type="image" src="https://cdn-icons-png.flaticon.com/512/1384/1384088.png" id="bt-social">	
+            </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="email-div">
+
+    <%= form_for Contact.new do |f| %>
+            <%= f.label :name ,'NOME', class: "form-label form-texto" %><br>
+            <%= f.text_field :name, required: true , class:"form-control"  %>
+
+            <br>
+
+            <%= f.label :email ,'E-MAIL', class: "form-label form-texto"  %><br>
+            <%= f.email_field :email, placeholder: 'nick@exemplo.com' , required: true , class:"form-control" %>
+
+            <br>
+
+            <%= f.label :message ,'MENSAGEM', class: "form-label form-texto"  %><br>
+            <%= f.text_area :message, as: :text , class:"form-control form-message" %><br>
+
+            <div id="hidden-captcha">
+                <%= f.label :nickname %><br>
+                <%= f.text_field :nickname, hint: 'leave this field blank' %>
+            </div>
+
+            <%= f.submit 'ENVIAR', class: "btn btn-dark send-button" %>
+     <% end %>
+</div>
+</section>

@@ -2,6 +2,7 @@
 
 * {
 	margin-bottom: 5px;
+    font-family: Impact;
 }
 
 :root {
@@ -30,8 +31,10 @@ body {
     text-align: center;
     font-size: 4em;
     font-family: Impact;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0);
     margin: 0 !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f8f9fa;
 }
 
 .sticky-top {

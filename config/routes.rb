@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'pages#index'
 
+  resources :contacts, only: [:new,:create]
+
   get 'pages/about'
   get 'pages/contacts'
   get 'pages/projects'
